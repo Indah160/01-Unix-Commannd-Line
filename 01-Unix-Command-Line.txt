@@ -1,0 +1,39 @@
+1. mkdir Indah
+
+2. ~cd Indah
+   ~mkdir sekolah
+   ~mkdir kerja
+
+3. ~cd sekolah
+   ~echo -e Perkenalkan namaku Indah 
+
+Aku berasal dari Madiun
+
+Salam Kenal :D >> ijazah.txt
+   ~ctrl+x
+   ~Y
+   ~Enter
+   ~cat ijazah.txt
+   ~echo -e Saya pernah bekerja pada beberapa perusahaan salah satu 
+diantaranya ialah
+
+- Unilever Indonesia
+- Telekomunikasi
+- Pertamina >> portofolio.txt
+
+4. cd ..
+
+5. ~cd kerja
+   ~echo -e Salam,
+
+Perkenalkan namaku Indah Dewi, saya memiliki kegemaran
+- Bermain Badmintoon
+- Berenang
+- Melukis >> cv.txt
+   ~ctrl+x
+   ~Y
+   ~Enter
+   ~cat cv.txt
+
+6. ~cd sekolah
+   ~mv portfolio.txt /home/pi/Indah/kerja
